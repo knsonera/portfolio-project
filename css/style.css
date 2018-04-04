@@ -63,7 +63,7 @@ a:hover {
 }
 
 .colors__inner {
-  display: block;
+  display: inline-block;
 }
 
 .colors__next {
@@ -148,7 +148,7 @@ a:hover {
 .featured__tile {
   display: inline-block;
   width: 30%;
-  margin-left: 25px;
+  margin-left: 20px;
   flex-grow: 1;
 }
 
