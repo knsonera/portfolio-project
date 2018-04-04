@@ -1,24 +1,40 @@
+/*
+ *
+ * Mobile:
+ * - switched sidebar and main section for better look
+ * - small fonts
+ * - small icons
+ * - featured projects in one column
+ *
+ */
+
 @media screen and (max-width:600px)  {
   main {
     width:85%;
   }
+
   header {
     height: 75px;
   }
+
   hr {
     height: 3px;
     margin-bottom: 10px;
   }
+
   .header {
     width: 100%;
     order: 0;
   }
+
   .header__fullname {
     font-size: 25px;
   }
+
   .header__jobtitle {
     font-size: 16px;
   }
+
   .colors {
     order: 2;
     height: 60px;
@@ -27,109 +43,156 @@
     margin-left: 0;
     margin-right: 0;
   }
+
   .colors__next {
     margin-bottom: 5px;
   }
+
   .colors__next__image {
     width: 40px;
     height: 40px;
   }
+
   .colors__next__code {
     font-size: 14px;
   }
+
   .featured {
     order: 1;
     margin-top: 10px;
   }
+
   .featured__title {
     padding-left: 10px;
     font-size: 20px;
     margin-bottom: 5px;
   }
+
   .featured__grid {
     display: inline-block;
   }
+
   .featured__tile {
     width: 100%;
     margin-left: 0;
   }
+
   .featured__tile__first {
     width: 100%;
   }
+
   .featured__tile__name {
     font-size: 18px;
     padding-top: 5px;
   }
+
   .featured__tile__url {
     margin-top: 3px;
   }
 }
 
+/*
+ *
+ * Tablet:
+ * - sidebar on the left
+ * - featured projects two in a row, two rows
+ * - adjusted fonts
+ * - adjusted icons
+ * - adjusted margins and paddings
+ *
+ */
+
 @media screen and (min-width:601px) and (max-width:900px)  {
   .header__fullname {
     font-size: 36px;
   }
+
   .header__jobtitle {
     font-size: 18px;
   }
+
   .header__logo {
     padding-top: 25px;
   }
+
   .colors {
     width: 13%;
     padding-top: 125px;
     margin-left: 10px;
     margin-right: 0;
   }
+
   .colors__next__image {
     width: 50px;
     height: 50px;
   }
+
   .colors__next__code {
     font-size: 16px;
   }
+
   .featured {
     margin-top: 10px;
   }
+
   .featured__title {
     padding-left: 10px;
     font-size: 28px;
     margin-bottom: 10px;
   }
+
   .featured__tile {
     margin-left: 15px;
   }
+
   .featured__tile__name {
     font-size: 22px;
     padding-top: 5px;
   }
+
   .featured__tile__url {
     margin-top: 3px;
   }
+
   .featured__grid {
     width: 100%;
     display: inline-block;
   }
+
   .featured__tile {
     width: 49.5%;
     display: inline-block;
     margin-left: 0;
   }
+
   .featured__tile__first {
     width: 49.5%;
     display: inline-block;
   }
 }
 
+/* Minor breakpoint: slightly bigger icons and fonts */
+
 @media screen and (min-width:760px) {
   .colors__next__image {
     width: 60px;
     height: 60px;
   }
+
   .colors__next__code {
     font-size: 20px;
   }
 }
+
+/*
+ *
+ * Desktop:
+ * - replicated design mockup
+ * - large fonts
+ * - large images and icons
+ * - automatic left and right margins after width: 951px 
+ *
+ */
 
 @media screen and (min-width:951px) {
   body {
