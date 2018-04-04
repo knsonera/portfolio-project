@@ -147,14 +147,14 @@ a:hover {
 
 .featured__tile {
   display: inline-block;
-  width: calc((100%-50px)/3);
+  width: 30%;
   margin-left: 25px;
   flex-grow: 1;
 }
 
 .featured__tile__first {
   display: inline-block;
-  width: calc((100%-20px)/3);
+  width: 30%;
   margin-left: 0;
   flex-grow: 1;
 }
