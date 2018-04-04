@@ -1,0 +1,66 @@
+@media screen and (max-width:450px)  {
+  main {
+    width:85%;
+  }
+  header {
+    height: 75px;
+  }
+  hr {
+    height: 3px;
+    margin-bottom: 10px;
+  }
+  .header {
+    width: 100%;
+    order: 0;
+  }
+  .header__fullname {
+    font-size: 25px;
+  }
+  .header__jobtitle {
+    font-size: 16px;
+  }
+  .colors {
+    order: 2;
+    height: 60px;
+    width: 13%;
+    padding-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .colors__next {
+    margin-bottom: 5px;
+  }
+  .colors__next__image {
+    width: 40px;
+    height: 40px;
+  }
+  .colors__next__code {
+    font-size: 14px;
+  }
+  .featured {
+    order: 1;
+    margin-top: 10px;
+  }
+  .featured__title {
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .featured__grid {
+    display: inline-block;
+  }
+  .featured__tile {
+    width: 100%;
+    margin-left: 0;
+  }
+  .featured__tile__first {
+    width: 100%;
+  }
+  .featured__tile__name {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  .featured__tile__url {
+    margin-top: 3px;
+  }
+}
